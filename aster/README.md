@@ -5,13 +5,13 @@ This image facilitates the usage of [ASTER](https://github.com/chaoszhang/ASTER.
 
 ASTER includes:
 
-- [ASTRAL-IV](#astral4)
-- [ASTRAL-Pro3](#astral-pro3)
-- [Weighted ASTRAL](#wastral)
-- [CASTER-site](#caster-site)
-- [CASTER-pair](#caster-pair)
-- [WASTER](#waster)
-- [D* statistic](#dstar)
+- ASTRAL-IV
+- ASTRAL-Pro3
+- Weighted ASTRAL
+- CASTER-site
+- CASTER-pair
+- WASTER
+- D* statistic
 
 # Using the ASTER image in Linux
 
