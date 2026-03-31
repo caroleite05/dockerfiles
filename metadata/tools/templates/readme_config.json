@@ -1,0 +1,81 @@
+{
+  "templates": {
+    "standard": {
+      "schema_rules": {
+        "required_fields": [
+          "tool_name",
+          "tool_url",
+          "tool_description",
+          "docker_command"
+        ],
+        "conditional_fields": {
+          "input_description": {
+            "depends_on": "input_file",
+            "condition": "exists"
+          },
+          "output_description": {
+            "depends_on": "output_file",
+            "condition": "exists"
+          }
+        }
+      },
+      "placeholder_hints": {
+        "tool_name": "e.g. Samtools",
+        "description": "Briefly describe what this tool does...",
+        "docker_command": "docker run --rm -v /your/data/dir:/data pegi3s/tool -i input.fa -o output.txt",
+        "directory_description":"`/your/data/dir` to point to the directory that contains ...",
+        "input_file": "e.g. input.fasta",
+        "input_description": "`input_file` to the actual name of your ...",
+        "output_file": "e.g. output.txt",
+        "output_description": "`output_file` to the actual name of your ...",
+        "help_command": "docker run --rm pegi3s/tool --help"
+      }
+    },
+    "external_with_df": {
+      "schema_rules": {
+        "required_fields": [
+          "original_image",
+          "tool_name",
+          "source_dockerfile",
+          "dockerfile_url",
+          "docker_command"
+        ]
+      },
+      "conditional_fields": {
+          "input_description": {
+            "depends_on": "input_file",
+            "condition": "exists"
+          },
+          "output_description": {
+            "depends_on": "output_file",
+            "condition": "exists"
+          }
+        },
+      "placeholder_hints": {
+        "original_image": "e.g. biocontainers/cd-hit",
+        "tool_name": "e.g. cd-hit",
+        "source_dockerfile": "e.g. DockerHub",
+        "docker_command": "docker run --rm -v /your/data/dir:/data pegi3s/tool -i input.fa -o output.txt",
+        "directory_description":"`/your/data/dir` to point to the directory that contains ...",
+        "input_file": "e.g. input.fasta",
+        "input_description": "`input_file` to the actual name of your ...",
+        "output_file": "e.g. output.txt",
+        "output_description": "`output_file` to the actual name of your ...",
+        "help_command": "docker run --rm pegi3s/tool --help"
+      }
+    },
+    "external_without_df": {
+      "schema_rules": {
+        "required_fields": [
+          "tool_name",
+          "manual_url",
+          "source_url",
+          "dockerhub_url"
+        ]
+      },
+      "placeholder_hints": {
+        "tool_name": "e.g. auto-pss-genome"
+      }
+    }
+  }
+}
