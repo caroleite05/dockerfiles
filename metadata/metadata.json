@@ -740,14 +740,16 @@
     "status": "Usable",
     "recommended": [
       {
-        "version": "1.2.4",
-        "date": "25/11/2024"
+        "version": "1.25",
+        "date": "2026-04-16"
       }
     ],
-    "latest": "1.2.4",
+    "latest": "1.25",
     "bug_found": [],
     "not_working": [],
-    "no_longer_tested": [],
+    "no_longer_tested": [
+      "1.2.4"
+    ],
     "manual_url": "http://www.clustal.org/omega/clustalo-api/",
     "source_url": "https://github.com/GSLBiotech/clustal-omega",
     "comments": [],
@@ -832,10 +834,10 @@
       }
     ],
     "custom_searches": {
-      "pubmed": "term=Coral+AND+Salmela+AND+Schröder",
-      "scholar": "q=Coral+Salmela+Schröder",
-      "bioprotocol": "content=Coral%20Salmela%20Schröder",
-      "bioprotocol_exchange": "content=Coral%20Salmela%20Schröder"
+      "pubmed": "term=Coral+AND+Salmela+AND+Schr\u00f6der",
+      "scholar": "q=Coral+Salmela+Schr\u00f6der",
+      "bioprotocol": "content=Coral%20Salmela%20Schr\u00f6der",
+      "bioprotocol_exchange": "content=Coral%20Salmela%20Schr\u00f6der"
     }
   },
   {
@@ -1745,7 +1747,7 @@
     "manual_url": "https://gatk.broadinstitute.org/hc/en-us/articles/360037224712--Tool-Documentation-Index",
     "source_url": "https://github.com/broadinstitute/gatk",
     "comments": [
-      "To see GATK 4 available tools, just run gatk --list (please note that GATK 4 does not include some tools that are included in GATK 3⁠).",
+      "To see GATK 4 available tools, just run gatk --list (please note that GATK 4 does not include some tools that are included in GATK 3\u2060).",
       "To obtain the help of a particular tool, you just need to run: gatk tools --help (where tools is the tool name)"
     ],
     "gui": false,
@@ -3084,7 +3086,7 @@
     "invocation_general": "docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v /your/data/dir:/data pegi3s/ncbi_retrieve",
     "usual_invocation_specific": " -db assembly -inc GENOME_FASTA -path /your/data/dir",
     "usual_invocation_specific_comments": [
-      "'assembly' can be changed to the NCBI database 'nucleotide'. 'GENOME_FASTA' to the specific information that you want to download from the NCBI website (options: GENOME_GFF, RNA_FASTA, CDS_FASTA, PROT_FASTA, SEQUENCE_REPORT). This option is only available for the ‘assembly’ database type."
+      "'assembly' can be changed to the NCBI database 'nucleotide'. 'GENOME_FASTA' to the specific information that you want to download from the NCBI website (options: GENOME_GFF, RNA_FASTA, CDS_FASTA, PROT_FASTA, SEQUENCE_REPORT). This option is only available for the \u2018assembly\u2019 database type."
     ],
     "test_invocation_specific": "",
     "test_data_url": "http://evolution6.i3s.up.pt/static/pegi3s/dockerfiles/input_test_data/3_nucleotide_accessions_with_comments.txt",
@@ -6999,7 +7001,7 @@
     "invocation_general": "docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v your/data/dir:/data pegi3s/haddock24-builder",
     "usual_invocation_specific": "  bash -c \"cp /data/inputFolder ./ && docker build ./ -t pegi3s/haddock24\"",
     "usual_invocation_specific_comments": [
-      "Prior to running the comman, you should visit pegi3s webpage for instructions and downloadable files. After running the command, replace it for 'bash -c “./your_mode”'. 'your_mode to pdna_run, plig_run, etc."
+      "Prior to running the comman, you should visit pegi3s webpage for instructions and downloadable files. After running the command, replace it for 'bash -c \u201c./your_mode\u201d'. 'your_mode to pdna_run, plig_run, etc."
     ],
     "test_invocation_specific": "",
     "test_data_url": "",
@@ -7051,7 +7053,7 @@
     "invocation_general": "docker run --rm -v /your/data/dir:/data pegi3s/hdock",
     "usual_invocation_specific": "bash -c \"/exe/hdock /data/pdb1File /data/pdb2File -out /exe/Hdock.out && /exe/createpl /exe/Hdock.out /exe/top100.pdb -nmax 100 -complex -models && mkdir -p /data/output && cp *.pdb /data/output\"",
     "usual_invocation_specific_comments": [
-      "Prior to running the command, you should visit pegi3s webpage for instructions and downloadable files. After running the command, replace it for 'bash -c “./your_mode”'. 'your_mode to pdna_run, plig_run, etc."
+      "Prior to running the command, you should visit pegi3s webpage for instructions and downloadable files. After running the command, replace it for 'bash -c \u201c./your_mode\u201d'. 'your_mode to pdna_run, plig_run, etc."
     ],
     "test_invocation_specific": "",
     "test_data_url": "",
