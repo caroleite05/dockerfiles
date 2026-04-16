@@ -740,15 +740,16 @@
     "status": "Usable",
     "recommended": [
       {
-        "version": "1.25",
+        "version": "1.26",
         "date": "16/04/2026"
       }
     ],
-    "latest": "1.25",
+    "latest": "1.26",
     "bug_found": [],
     "not_working": [],
     "no_longer_tested": [
-      "1.2.4"
+      "1.2.4",
+      "1.25"
     ],
     "manual_url": "http://www.clustal.org/omega/clustalo-api/",
     "source_url": "https://github.com/GSLBiotech/clustal-omega",
