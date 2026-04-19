@@ -1,7 +1,3 @@
-
-# Ontology terms
-# Suggestions
-DIO:0000001
 DIO:0000004	clustalomega
 DIO:0000004	dialign
 DIO:0000004	mafft
@@ -207,4 +203,3 @@ DIO:0000065	takeabreak
 DIO:0000066	auto-phylo
 DIO:0000067	trinity
 DIO:0000068	auto-p2docking
-SUGGESTION: ANA
