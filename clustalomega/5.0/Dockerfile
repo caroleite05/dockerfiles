@@ -1,0 +1,6 @@
+# EMPTY DOCKERFILE!
+# NOT USE THIS DOCKER IMAGE!
+# Only test
+
+FROM ubuntu
+
