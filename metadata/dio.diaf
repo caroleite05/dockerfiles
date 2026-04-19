@@ -1,4 +1,9 @@
+
+# Ontology terms
+# Suggestions
+DIO:0000001
 DIO:0000004	clustalomega
+DIO:0000004	dialign
 DIO:0000004	mafft
 DIO:0000004	megax
 DIO:0000004	megax_cc
@@ -6,7 +11,6 @@ DIO:0000004	muscle
 DIO:0000004	probcons_nuc
 DIO:0000004	tcoffee
 DIO:0000004	translatorx
-DIO:0000004	dialign
 DIO:0000005	hyphy
 DIO:0000005	omegamap
 DIO:0000005	paml
@@ -24,6 +28,7 @@ DIO:0000009	mauve
 DIO:0000010	auto-pss-genome
 DIO:0000010	pss-genome-fs
 DIO:0000011	igv
+DIO:0000012	aster
 DIO:0000012	fastroot
 DIO:0000012	fasttree
 DIO:0000012	figtree
@@ -36,7 +41,6 @@ DIO:0000012	plottree
 DIO:0000012	raxml
 DIO:0000012	rootdigger
 DIO:0000012	treeviewx
-DIO:0000012	aster
 DIO:0000013	aegean
 DIO:0000013	autoaugustus
 DIO:0000013	prokka
@@ -118,9 +122,9 @@ DIO:0000029	tree_snatcher_plus
 DIO:0000029	utilities
 DIO:0000031	bowtie1
 DIO:0000031	bwa
+DIO:0000031	dialign
 DIO:0000031	hisat2
 DIO:0000031	htseq
-DIO:0000031	dialign
 DIO:0000033	abyss
 DIO:0000033	edena
 DIO:0000033	soapdenovo2
@@ -150,14 +154,14 @@ DIO:0000040	sppider
 DIO:0000040	whiscy
 DIO:0000041	tm-align_server
 DIO:0000041	tmtools
+DIO:0000042	haddock-tools
 DIO:0000042	haddock24-builder
 DIO:0000042	haddock_server
 DIO:0000042	hdock-builder
 DIO:0000042	pilzerd
 DIO:0000042	pydock3-builder
-DIO:0000042	haddock-tools
-DIO:0000043	i-tasser_server
 DIO:0000043	boltz-1
+DIO:0000043	i-tasser_server
 DIO:0000044	alphafold_db
 DIO:0000044	ditasser_db
 DIO:0000044	getpdb
@@ -203,3 +207,4 @@ DIO:0000065	takeabreak
 DIO:0000066	auto-phylo
 DIO:0000067	trinity
 DIO:0000068	auto-p2docking
+SUGGESTION: ANA
